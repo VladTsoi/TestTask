@@ -1,0 +1,16 @@
+﻿<!--Беру данные объединеных таблиц из созданного класса ProductsCategories-->
+@model IEnumerable<TestTask.Models.ProductsCategories>
+
+<h2>Список товаров</h2>
+<!--Создание таблицы и вывод данных при помощи цикла-->
+<table class="table">
+    <tr><th>№</th><th>Название</th><th>Категория</th></tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.Id)</td>
+            <td>@Html.DisplayFor(modelItem => item.Name)</td>
+            <td>@Html.DisplayFor(modelItem => item.Category)</td>
+        </tr>
+    }
+</table>
