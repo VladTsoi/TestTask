@@ -1459,22 +1459,22 @@
   background-image: var(--bs-gradient) !important;
 }
 
-.user-select-all {
-  -webkit-user-select: all !important;
-  -moz-user-select: all !important;
-  user-select: all !important;
+.Product-select-all {
+  -webkit-Product-select: all !important;
+  -moz-Product-select: all !important;
+  Product-select: all !important;
 }
 
-.user-select-auto {
-  -webkit-user-select: auto !important;
-  -moz-user-select: auto !important;
-  user-select: auto !important;
+.Product-select-auto {
+  -webkit-Product-select: auto !important;
+  -moz-Product-select: auto !important;
+  Product-select: auto !important;
 }
 
-.user-select-none {
-  -webkit-user-select: none !important;
-  -moz-user-select: none !important;
-  user-select: none !important;
+.Product-select-none {
+  -webkit-Product-select: none !important;
+  -moz-Product-select: none !important;
+  Product-select: none !important;
 }
 
 .pe-none {
